@@ -12,6 +12,6 @@ public class Greet {
 
         User.setUserName(scanner.next());
         System.out.println("Hello, " + User.getUserName() + "!");
-        scanner.close();
+        //Cli.cli();
     }
 }

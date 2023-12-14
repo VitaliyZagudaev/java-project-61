@@ -1,20 +1,31 @@
 package hexlet.code;
 
+import hexlet.code.games.Calc;
+import hexlet.code.games.Even;
+
 import java.util.Scanner;
 
 public class Cli {
+
+    private static String userChoice;
+
+    Cli(String choice) {
+        this.userChoice = choice;
+    }
+
+    public static void setUserChoice(String choice) {
+        userChoice = choice;
+    }
+
+    public static String getUserChoice() {
+        return userChoice;
+    }
+
     public static void cli() {
+
         Scanner scanner = new Scanner(System.in);
-
-        System.out.println("Please enter the game number and press Enter.");
-
-        System.out.println("1 - Greet");
-        System.out.println("2 - Even");
-        System.out.println("3 - Calc");
-        System.out.println("0 - Exit");
-
-        System.out.print("Your choice: ");
         String choice = scanner.next();
+        Cli.setUserChoice(choice);
 
         switch (choice) {
             case "1":
@@ -22,17 +33,23 @@ public class Cli {
                 break;
 
             case "2":
+                Greet.greet();
                 Even.even();
+                Engine.engine();
                 break;
 
             case "3":
+                Greet.greet();
                 Calc.calc();
+                Engine.engine();
+                break;
 
             case "0":
                 break;
 
             default:
                 System.out.println("Please enter the correct value.");
+                break;
         }
     }
 }

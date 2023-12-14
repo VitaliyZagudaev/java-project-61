@@ -6,3 +6,6 @@
 
 ### asciinema record functions application after the fifth step of the fitst project:
 ### https://asciinema.org/a/hrLUn80Yx5tkhHn2Wep64TbYn
+
+### asciinema record functions application after the sixth step of the first project:
+### https://asciinema.org/a/udtH92ojC5dWq0oYmlF3kUcIA

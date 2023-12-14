@@ -1,11 +1,12 @@
 package hexlet.code;
 
-class User {
+public class User {
     private static String userName;
 
     User(String name) {
         this.userName = name;
     }
+
     public static String getUserName() {
         return userName;
     }
