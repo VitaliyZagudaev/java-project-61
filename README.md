@@ -9,3 +9,12 @@
 
 ### asciinema record functions application after the sixth step of the first project:
 ### https://asciinema.org/a/udtH92ojC5dWq0oYmlF3kUcIA
+
+### asciinema record functions application after the seventh step of the first project:
+### https://asciinema.org/a/ZoBEzOsBK1U9oRo9wdI16lWmU
+
+### asciinema record functions application after the eighth step of the first project:
+### https://asciinema.org/a/x1HiIzX9eWlKhMDr3cFZXewrj
+
+### asciinema record functions application after the ninth step of the first project:
+### https://asciinema.org/a/x74cJdYFvIqCV5jYUKfAN7Mv8

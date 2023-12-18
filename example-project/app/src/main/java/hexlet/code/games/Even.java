@@ -1,6 +1,5 @@
 package hexlet.code.games;
 
-import hexlet.code.Engine;
 import hexlet.code.Game;
 import hexlet.code.Generator;
 

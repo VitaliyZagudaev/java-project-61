@@ -2,6 +2,9 @@ package hexlet.code;
 
 import hexlet.code.games.Calc;
 import hexlet.code.games.Even;
+import hexlet.code.games.GCD;
+import hexlet.code.games.Progression;
+import hexlet.code.games.Prime;
 
 import java.util.Scanner;
 
@@ -41,6 +44,24 @@ public class Cli {
             case "3":
                 Greet.greet();
                 Calc.calc();
+                Engine.engine();
+                break;
+
+            case "4":
+                Greet.greet();
+                GCD.gcd();
+                Engine.engine();
+                break;
+
+            case "5":
+                Greet.greet();
+                Progression.progression();
+                Engine.engine();
+                break;
+
+            case "6":
+                Greet.greet();
+                Prime.prime();
                 Engine.engine();
                 break;
 
