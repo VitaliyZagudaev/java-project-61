@@ -4,7 +4,7 @@ public class User {
     private static String userName;
 
     User(String name) {
-        this.userName = name;
+        userName = name;
     }
 
     public static String getUserName() {

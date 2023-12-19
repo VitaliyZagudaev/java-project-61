@@ -13,7 +13,7 @@ public class Cli {
     private static String userChoice;
 
     Cli(String choice) {
-        this.userChoice = choice;
+        userChoice = choice;
     }
 
     public static void setUserChoice(String choice) {

@@ -9,11 +9,11 @@ public class Game {
     private static int gameRandom;
 
     Game(String manual, String result, String question, String answer, int random) {
-        this.gameManual = manual;
-        this.gameResult = result;
-        this.gameQuestion = question;
-        this.userAnswer = answer;
-        this.gameRandom = random;
+        gameManual = manual;
+        gameResult = result;
+        gameQuestion = question;
+        userAnswer = answer;
+        gameRandom = random;
     }
 
     public static void setGameManual(String manual) {

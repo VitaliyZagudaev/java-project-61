@@ -9,13 +9,10 @@ public class Prime {
 
         int random = Generator.generator();
 
-        int[] preDevisors = new int[random];
-
         int index = 1;
         int count = 0;
-        while (index < random + 1) {
+        while (index <= random) {
             if (random % index == 0) {
-                preDevisors[count] = index;
                 index++;
                 count++;
             } else {
@@ -23,7 +20,7 @@ public class Prime {
             }
         }
 
-        String result = "";
+        var result = "";
         if (count == 2) {
             result = "yes";
         } else {
