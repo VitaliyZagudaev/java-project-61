@@ -34,6 +34,6 @@ public class Calc {
         }
 
         Game.setGameResult(Integer.toString(result));
-        Game.setGameQwestion("Question: " + number1 + " " + operator + " " + number2);
+        Game.setGameQuestion("Question: " + number1 + " " + operator + " " + number2);
     }
 }

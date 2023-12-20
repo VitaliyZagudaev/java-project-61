@@ -68,6 +68,6 @@ public class GCD {
         }
 
         Game.setGameResult(Integer.toString(result));
-        Game.setGameQwestion("Question: " + number1 + " " + number2);
+        Game.setGameQuestion("Question: " + number1 + " " + number2);
     }
 }

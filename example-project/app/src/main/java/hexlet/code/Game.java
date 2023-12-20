@@ -22,7 +22,7 @@ public class Game {
     public static void setGameResult(String result) {
         gameResult = result;
     }
-    public static void setGameQwestion(String question) {
+    public static void setGameQuestion(String question) {
         gameQuestion = question;
     }
     public static void setUserAnswer(String answer) {

@@ -36,6 +36,6 @@ public class Progression {
         }
 
         Game.setGameResult(Integer.toString(numberHide));
-        Game.setGameQwestion("Question: " + sequenceToPrint);
+        Game.setGameQuestion("Question: " + sequenceToPrint);
     }
 }

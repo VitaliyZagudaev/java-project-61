@@ -13,6 +13,6 @@ public class Even {
 
         String result = ((number % 2) == 0) ? "yes" : "no";
         Game.setGameResult(result);
-        Game.setGameQwestion("Question: " + number);
+        Game.setGameQuestion("Question: " + number);
     }
 }

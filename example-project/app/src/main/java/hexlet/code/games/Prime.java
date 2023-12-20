@@ -28,6 +28,6 @@ public class Prime {
         }
 
         Game.setGameResult(result);
-        Game.setGameQwestion("Question: " + random);
+        Game.setGameQuestion("Question: " + random);
     }
 }
