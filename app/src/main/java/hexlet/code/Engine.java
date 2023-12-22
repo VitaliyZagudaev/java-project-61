@@ -9,10 +9,12 @@ public class Engine {
         String verdictVictory = "Congratulations, " + User.getUserName() + '!';
         String verdictDefeat = "Let's try again, " + User.getUserName() + '!';
 
+        int rounds = 3;
+
         System.out.println(Game.getGameManual());
 
         int index = 0;
-        while (index < 3) {
+        while (index < rounds) {
 
             Call.call();
 
@@ -22,11 +24,14 @@ public class Engine {
             Scanner scanner = new Scanner(System.in);
             Game.setUserAnswer(scanner.next());
 
+            String answer = Game.getUserAnswer();
+            String result = Game.getGameResult();
+
             if (Game.getGameResult().equals(Game.getUserAnswer())) {
                 System.out.println("Correct!");
                 index++;
             } else {
-                System.out.println("'" + Game.getUserAnswer() + "' is wrong answer ;(. Correct answer was '" + Game.getGameResult() + "'.");
+                System.out.println("'" + answer + "' is wrong answer ;(. Correct answer was '" + result + "'.");
                 break;
             }
         }

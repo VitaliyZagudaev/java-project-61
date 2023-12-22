@@ -28,6 +28,8 @@ public class Call {
             case "6":
                 Prime.prime();
                 break;
+            default:
+                break;
         }
     }
 }

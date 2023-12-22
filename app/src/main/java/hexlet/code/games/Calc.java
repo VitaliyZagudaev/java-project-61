@@ -18,17 +18,21 @@ public class Calc {
         int operation = Game.getGameRandom();
 
         String operator = "";
+
+        int plus = 1;
+        int minus = 2;
+        int multiply = 3;
         int result = 0;
 
-        if (operation == 1) {
+        if (operation == plus) {
             operator = "+";
             result = (number1 + number2);
 
-        } else if (operation == 2) {
+        } else if (operation == minus) {
             operator = "-";
             result = (number1 - number2);
 
-        } else if (operation == 3) {
+        } else if (operation == multiply) {
             operator = "*";
             result = (number1 * number2);
         }
