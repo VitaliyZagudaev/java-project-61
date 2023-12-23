@@ -35,7 +35,7 @@ public class Engine {
                 break;
             }
         }
-        if (index == 3) {
+        if (index == rounds) {
             System.out.println(verdictVictory);
         } else {
             System.out.println(verdictDefeat);

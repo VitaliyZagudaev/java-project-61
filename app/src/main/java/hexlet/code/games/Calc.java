@@ -15,26 +15,28 @@ public class Calc {
         int number2 = Game.getGameRandom();
 
         Game.setGameRandom(Generator.generatorThree());
-        int operation = Game.getGameRandom();
+        String operation = Integer.toString(Game.getGameRandom());
 
         String operator = "";
-
-        int plus = 1;
-        int minus = 2;
-        int multiply = 3;
         int result = 0;
 
-        if (operation == plus) {
-            operator = "+";
-            result = (number1 + number2);
+        switch (operation) {
+            case "1":
+                operator = "+";
+                result = (number1 + number2);
+                break;
 
-        } else if (operation == minus) {
-            operator = "-";
-            result = (number1 - number2);
+            case "2":
+                operator = "-";
+                result = (number1 - number2);
+                break;
 
-        } else if (operation == multiply) {
-            operator = "*";
-            result = (number1 * number2);
+            case "3":
+                operator = "*";
+                result = (number1 * number2);
+                break;
+            default:
+                break;
         }
 
         Game.setGameResult(Integer.toString(result));
