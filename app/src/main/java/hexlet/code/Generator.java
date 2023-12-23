@@ -3,11 +3,11 @@ package hexlet.code;
 import org.apache.commons.lang3.RandomUtils;
 public class Generator {
 
-    private static int randomLimitBasic = 100;
-    private static int randomLimitFour = 4;
-    private static int randomLimitFive = 5;
-    private static int randomLimitTen = 10;
-    private static int randomLimitEleven = 11;
+    final static int randomLimitBasic = 100;
+    final static int randomLimitFour = 4;
+    final static int randomLimitFive = 5;
+    final static int randomLimitTen = 10;
+    final static int randomLimitEleven = 11;
 
     public static int generator() {
         return RandomUtils.nextInt(1, randomLimitBasic);
