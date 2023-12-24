@@ -3,29 +3,29 @@ package hexlet.code;
 import org.apache.commons.lang3.RandomUtils;
 public class Generator {
 
-    final static int randomLimitBasic = 100;
-    final static int randomLimitFour = 4;
-    final static int randomLimitFive = 5;
-    final static int randomLimitTen = 10;
-    final static int randomLimitEleven = 11;
+    static final int MAX_100 = 100;
+    static final int MAX_4 = 4;
+    static final int MIN_5 = 5;
+    static final int MAX_10 = 10;
+    static final int MAX_11 = 11;
 
     public static int generator() {
-        return RandomUtils.nextInt(1, randomLimitBasic);
+        return RandomUtils.nextInt(1, MAX_100);
     }
     public static int generatorThree() {
-        return RandomUtils.nextInt(1, randomLimitFour);
+        return RandomUtils.nextInt(1, MAX_4);
     }
     public static int generatorNine() {
-        return RandomUtils.nextInt(1, randomLimitTen);
+        return RandomUtils.nextInt(1, MAX_10);
     }
     public static int generatorTwoNine() {
-        return RandomUtils.nextInt(2, randomLimitTen);
+        return RandomUtils.nextInt(2, MAX_10);
     }
     public static int generatorTen() {
-        return RandomUtils.nextInt(1, randomLimitEleven);
+        return RandomUtils.nextInt(1, MAX_11);
     }
     public static int generatorFiveTen() {
-        return RandomUtils.nextInt(randomLimitFive, randomLimitEleven);
+        return RandomUtils.nextInt(MIN_5, MAX_11);
     }
     public static int generatorOneRandom() {
         return RandomUtils.nextInt(1, Game.getGameRandom());

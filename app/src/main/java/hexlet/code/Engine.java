@@ -9,7 +9,7 @@ public class Engine {
         String verdictVictory = "Congratulations, " + User.getUserName() + '!';
         String verdictDefeat = "Let's try again, " + User.getUserName() + '!';
 
-        int rounds = 3;
+        final int rounds = 3;
 
         System.out.println(Game.getGameManual());
 
